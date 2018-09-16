@@ -1,0 +1,21 @@
+@include for-tablet-portrait-up {
+// BASE START min-width: 600 ++++++++
+
+// BASE END min-width: 600 ++++++++
+}
+@include for-tablet-landscape-up {
+// BASE START min-width: 900px ++++++++
+
+// BASE END min-width: 900px ++++++++
+}
+// min-width: 1200px
+@include for-desktop-up {
+// BASE START min-width: 1200px ++++++++
+
+// BASE END min-width: 1200px ++++++++
+}
+@include for-big-desktop-up {
+// BASE START min-width: 1800 ++++++++
+
+// BASE END min-width: 1800 ++++++++
+}

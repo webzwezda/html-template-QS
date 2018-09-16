@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('head.html')
+<body itemscope itemtype="http://schema.org/WebPage">
+<header class="site__header--wrap">
+  <div class="site__header">
+@@include("header.html")
+  </div>
+</header>
+<div class="main--wrap">
+
+  <aside class="main__aside0">
+    <div>
+      <img src="/assets/image/src/ad-horizontal.jpg" alt="">
+    </div>
+  </aside>
+
+  <main class="main__content" itemscope itemprop="mainContentOfPage">
+    @@include("breadcrumb.html")
+    @@include("posts.html")
+  </main>
+    <aside class="main__aside1" itemscope itemtype="http://schema.org/WPSideBar">
+        @@include("menuRight--relPosts.html")
+    </aside>
+</div>
+
+@@include("footer.html")
+
+</body>
+</html>

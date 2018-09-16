@@ -1,0 +1,351 @@
+// color variable map
+$material: (
+  // non-nested values
+  red--n: #f44336,
+  pink--n: #e91e63,
+  purple--n: #9c27b0,
+  deepPurple--n: #673ab7,
+  indigo--n: #3f51b5,
+  blue--n: #2196f3,
+  lightBlue--n: #03a9f4,
+  cyan--n: #00bcd4,
+  teal--n: #009688,
+  green--n: #4caf50,
+  lightGreen--n: #8bc34a,
+  lime--n: #cddc39,
+  yellow--n: #ffeb3b,
+  amber--n: #ffc107,
+  orange--n: #ff9800,
+  deepOrange--n: #ff5722,
+  brown--n: #795548,
+  grey--n: #9e9e9e,
+  blueGrey--n: #607d8b,
+  // nested map inception
+  red: (
+    1: #b71c1c,
+    2: #c62828,
+    3: #d32f2f,
+    4: #e53935,
+    5: #f44336,
+    6: #ef5350,
+    7: #e57373,
+    8: #ef9a9a,
+    9: #ffcdd2,
+    10: #ffebee,
+
+    1.1: #d50000,
+    1.2: #ff1744,
+    1.3: #ff5252,
+    1.4: #ff8a80
+  ),
+  pink: (
+    1: #880e4f,
+    2: #ad1457,
+    3: #c2185b,
+    4: #d81b60,
+    5: #e91e63,
+    6: #ec407a,
+    7: #f06292,
+    8: #f48fb1,
+    9: #f8bbd0,
+    10: #fce4ec,
+
+    1.1: #c51162,
+    1.2: #f50057,
+    1.3: #ff4081,
+    1.4: #ff80ab
+  ),
+  purple: (
+    1: #4a148c,
+    2: #6a1b9a,
+    3: #7b1fa2,
+    4: #8e24aa,
+    5: #9c27b0,
+    6: #ab47bc,
+    7: #ba68c8,
+    8: #ce93d8,
+    9: #e1bee7,
+    10: #f3e5f5,
+
+    1.1: #aa00ff,
+    1.2: #d500f9,
+    1.3: #d500f9,
+    1.4: #ea80fc
+  ),
+  deepPurple: (
+    1: #311b92,
+    2: #4527a0,
+    3: #512da8,
+    4: #5e35b1,
+    5: #673ab7,
+    6: #7e57c2,
+    7: #9575cd,
+    8: #b39ddb,
+    9: #d1c4e9,
+    10: #ede7f6,
+
+    1.1: #6200ea,
+    1.2: #651fff,
+    1.3: #7c4dff,
+    1.4: #b388ff
+  ),
+  indigo: (
+    1: #1a237e,
+    2: #283593,
+    3: #303f9f,
+    4: #3949ab,
+    5: #3f51b5,
+    6: #5c6bc0,
+    7: #7986cb,
+    8: #9fa8da,
+    9: #c5cae9,
+    10: #e8eaf6,
+
+    1.1: #304ffe,
+    1.2: #536dfe,
+    1.3: #536dfe,
+    1.4: #8c9eff
+  ),
+  blue: (
+    1: #0d47a1,
+    2: #1565c0,
+    3: #1976d2,
+    4: #1e88e5,
+    5: #2196f3,
+    6: #42a5f5,
+    7: #64b5f6,
+    8: #90caf9,
+    9: #bbdefb,
+    10: #e3f2fd,
+
+    1.1: #304ffe,
+    1.2: #536dfe,
+    1.3: #536dfe,
+    1.4: #8c9eff
+  ),
+  lightBlue: (
+    1: #01579b,
+    2: #0277bd,
+    3: #0288d1,
+    4: #039be5,
+    5: #03a9f4,
+    6: #29b6f6,
+    7: #4fc3f7,
+    8: #81d4fa,
+    9: #b3e5fc,
+    10: #e1f5fe,
+
+    1.1: #0091ea,
+    1.2: #00b0ff,
+    1.3: #40c4ff,
+    1.4: #80d8ff
+  ),
+  cyan: (
+    1: #006064,
+    2: #00838f,
+    3: #0097a7,
+    4: #00acc1,
+    5: #00bcd4,
+    6: #26c6da,
+    7: #4dd0e1,
+    8: #80deea,
+    9: #b2ebf2,
+    10: #e0f7fa,
+
+    1.1: #00b8d4,
+    1.2: #00e5ff,
+    1.3: #18ffff,
+    1.4: #84ffff
+  ),
+  teal: (
+    1: #004d40,
+    2: #00695c,
+    3: #00796b,
+    4: #00897b,
+    5: #009688,
+    6: #26a69a,
+    7: #4db6ac,
+    8: #80cbc4,
+    9: #b2dfdb,
+    10: #e0f2f1,
+
+    1.1: #00bfa5,
+    1.2: #1de9b6,
+    1.3: #64ffda,
+    1.4: #a7ffeb
+  ),
+  green: (
+    1: #1b5e20,
+    2: #2e7d32,
+    3: #388e3c,
+    4: #43a047,
+    5: #4caf50,
+    6: #66bb6a,
+    7: #81c784,
+    8: #a5d6a7,
+    9: #c8e6c9,
+    10: #e8f5e9,
+
+    1.1: #00c853,
+    1.2: #00e676,
+    1.3: #69f0ae,
+    1.4: #b9f6ca
+  ),
+  lightGreen: (
+    1: #33691e,
+    2: #558b2f,
+    3: #689f38,
+    4: #7cb342,
+    5: #8bc34a,
+    6: #9ccc65,
+    7: #aed581,
+    8: #c5e1a5,
+    9: #dcedc8,
+    10: #f1f8e9,
+
+    1.1: #64dd17,
+    1.2: #76ff03,
+    1.3: #b2ff59,
+    1.4: #ccff90
+  ),
+  lime: (
+    1: #827717,
+    2: #9e9d24,
+    3: #afb42b,
+    4: #c0ca33,
+    5: #cddc39,
+    6: #d4e157,
+    7: #dce775,
+    8: #e6ee9c,
+    9: #f0f4c3,
+    10: #f9fbe7,
+
+    1.1: #aeea00,
+    1.2: #c6ff00,
+    1.3: #eeff41,
+    1.4: #f4ff81
+  ),
+  yellow: (
+    1: #f57f17,
+    2: #f9a825,
+    3: #fbc02d,
+    4: #fdd835,
+    5: #ffeb3b,
+    6: #ffee58,
+    7: #fff176,
+    8: #fff59d,
+    9: #fff9c4,
+    10: #fffde7,
+
+    1.1: #ffd600,
+    1.2: #ffea00,
+    1.3: #ffff00,
+    1.4: #ffff8d
+  ),
+  amber: (
+    1: #ff6f00,
+    2: #ff8f00,
+    3: #ffa000,
+    4: #ffb300,
+    5: #ffc107,
+    6: #ffca28,
+    7: #ffd54f,
+    8: #ffe082,
+    9: #ffecb3,
+    10: #fff8e1,
+
+    1.1: #ffab00,
+    1.2: #ffc400,
+    1.3: #ffd740,
+    1.4: #ffe57f
+  ),
+  orange: (
+    1: #e65100,
+    2: #ef6c00,
+    3: #f57c00,
+    4: #fb8c00,
+    5: #ff9800,
+    6: #ffa726,
+    7: #ffb74d,
+    8: #ffcc80,
+    9: #ffe0b2,
+    10: #fff3e0,
+
+    1.1: #ff6d00,
+    1.2: #ff9100,
+    1.3: #ffab40,
+    1.4: #ffd180
+  ),
+  deepOrange: (
+    1: #bf360c,
+    2: #d84315,
+    3: #e64a19,
+    4: #f4511e,
+    5: #ff5722,
+    6: #ff7043,
+    7: #ff8a65,
+    8: #ffab91,
+    9: #ffccbc,
+    10: #fbe9e7,
+
+    1.1: #dd2c00,
+    1.2: #ff3d00,
+    1.3: #ff6e40,
+    1.4: #ff9e80
+  ),
+  brown: (
+    1: #3e2723,
+    2: #4e342e,
+    3: #5d4037,
+    4: #6d4c41,
+    5: #795548,
+    6: #8d6e63,
+    7: #a1887f,
+    8: #d7ccc8,
+    9: #d7ccc8,
+    10: #efebe9
+  ),
+  grey: (
+    1:  #212121,
+    2:  #424242,
+    3:  #616161,
+    4:  #757575,
+    5:  #9e9e9e,
+    6:  #bdbdbd,
+    7:  #e0e0e0,
+    8:  #eeeeee,
+    9:  #f5f5f5,
+    10: #fafafa,
+  ),
+  blueGrey: (
+  1:  #263238,
+  2:  #37474f,
+  3:  #455a64,
+  4:  #546e7a,
+  5:  #607d8b,
+  6:  #78909c,
+  7:  #90a4ae,
+  8:  #b0bec5,
+  9:  #cfd8dc,
+  10: #eceff1
+  )
+);
+
+// retrieve color from $colors map ie. `color(base, primary)`
+@function color($color-name, $color-variant:null) {
+  // color variant is optional
+  @if ($color-variant != null) {
+    // map inception
+    @return map-get(map-get($material, $color-name), $color-variant);
+  } @else {
+    @return map-get($material, $color-name);
+  }
+}
+
+// .none-style {
+//   background-color: color(background);
+// }
+// // using the function to get a nested map color
+// .none-style2 {
+//   color: color(primary, base);
+// }
